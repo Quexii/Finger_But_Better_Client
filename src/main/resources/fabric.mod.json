@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "fingerbutbetterclient",
+  "version": "${version}",
+  "name": "FingerButBetterClient",
+  "description": "Finger Client but better (maybe)",
+  "authors": [
+    "Shoroa"
+  ],
+  "contact": {
+    "repo": "https://github.com/Quexii/FingerButBetterClient"
+  },
+  "license": "All-Rights-Reserved",
+  "icon": "assets/betterfinger/logo.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "dev.shoroa.finger.fingerbutbetterclient.client.FBBClient"
+    ],
+    "main": [
+      "dev.shoroa.finger.fingerbutbetterclient.FBBMod"
+    ]
+  },
+  "mixins": [
+    "fbbc.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "minecraft": "${minecraft_version}"
+  }
+}
