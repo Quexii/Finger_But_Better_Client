@@ -6,6 +6,8 @@
   "mixins": [
   ],
   "client": [
+    "client.gui.MixinMainMenu",
+    "client.player.MixinLocalPlayer"
   ],
   "injectors": {
     "defaultRequire": 1

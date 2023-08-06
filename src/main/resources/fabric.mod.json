@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "id": "fingerbutbetterclient",
+  "id": "fcbb",
   "version": "${version}",
   "name": "FingerButBetterClient",
   "description": "Finger Client but better (maybe)",
@@ -8,10 +8,10 @@
     "Shoroa"
   ],
   "contact": {
-    "repo": "https://github.com/Quexii/FingerButBetterClient"
+    "repo": "https://github.com/Quexii/Finger_But_Better_Client"
   },
   "license": "All-Rights-Reserved",
-  "icon": "assets/betterfinger/logo.png",
+  "icon": "assets/betterfinger/icon.png",
   "environment": "*",
   "entrypoints": {
     "client": [
